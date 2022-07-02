@@ -11,7 +11,7 @@ String func(s1, s2) {
   int y = s1.length;
   int x = s2.length;
   if (y > x) {
-    return s1 + s2;
+    return s2;
   } else
     return s1;
 }
