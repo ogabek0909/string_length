@@ -9,9 +9,9 @@
 */
 String func(s1, s2) {
   if (s1.length % 2 == 0 || s2.length % 2 == 0) {
-    return s2;
-  } else
     return s1;
+  } else
+    return s2;
 }
 
 void main() {
