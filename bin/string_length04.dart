@@ -6,6 +6,13 @@
     Returns:
         string
 */
+String func(s) {
+  int y = s.length;
+  return '*' * y;
+  // String ogabek = 'ogabek';
+}
+
 void main() {
   // write your code here
+  print(func('salom'));
 }
