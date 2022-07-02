@@ -7,13 +7,13 @@
     Returns:
         str: answer
      */
-int func(s1, s2) {
+String func(s1, s2) {
   int y = s1.length;
   int x = s2.length;
   if (y > x) {
-    return x + y;
+    return s1 + s2;
   } else
-    return x;
+    return s1;
 }
 
 void main() {
