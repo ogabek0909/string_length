@@ -6,7 +6,11 @@
     Returns:
         bool: answer
 */
+String func(s) {
+  return s.toUpperCase();
+}
 
 void main() {
+  print(func('salom'));
   // write your code here
 }
