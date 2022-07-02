@@ -7,6 +7,16 @@
     Returns:
         str: answer
      */
+int func(s1, s2) {
+  int y = s1.length;
+  int x = s2.length;
+  if (y > x) {
+    return x + y;
+  } else
+    x;
+}
+
 void main() {
+  print(func('dsasd', 'dskfjkd'));
   // write your code here
 }
