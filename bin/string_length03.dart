@@ -7,6 +7,16 @@
     Returns:
         True or False
 */
+bool func(a, b) {
+  int q = a.length;
+  int w = b.length;
+  if (q == b) {
+    return true;
+  } else
+    return false;
+}
+
 void main() {
   // write your code here
+  print(func('dhshd', 'fkjdhfgu'));
 }
