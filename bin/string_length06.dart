@@ -8,7 +8,7 @@
         shortest string
 */
 int func(s1, s2) {
-  if (s1.length > s2.length) {
+  if (s1.length < s2.length) {
     return s1.length;
   } else
     return s2.length;
