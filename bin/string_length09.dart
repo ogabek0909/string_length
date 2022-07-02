@@ -13,7 +13,7 @@ String func(s1, s2) {
   if (y > x) {
     return s1 + s2;
   } else
-    return s2;
+    return s1;
 }
 
 void main() {
