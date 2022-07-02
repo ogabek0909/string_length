@@ -13,7 +13,7 @@ int func(s1, s2) {
   if (y > x) {
     return x + y;
   } else
-    x;
+    return x;
 }
 
 void main() {
