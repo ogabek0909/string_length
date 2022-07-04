@@ -9,7 +9,7 @@
 */
 String func(s) {
   String q = s.substring(2, 3);
-  String a = s.substring(2, 4);
+  String a = s.substring(1, 3);
   if (s.length % 2 == 1) {
     return q;
   } else
