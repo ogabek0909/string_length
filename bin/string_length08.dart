@@ -7,6 +7,16 @@
     Returns:
         str: answer
 */
+String func(s) {
+  String q = s.substring(2, 3);
+  String a = s.substring(2, 4);
+  if (s.length % 2 == 1) {
+    return q;
+  } else
+    return a;
+}
+
 void main() {
+  print(func('salom'));
   // write your code here
 }
